@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2012 - 2013. All Rights Reserved.
+All the code underneath is written by Hamza Waqas @ Ubuntu
+From Karachi on The PlumTree Group.
+
+*Code may varies from Public & Private source code.
+-->
+
+<config>
+    <modules>
+        <mycompany_helloworld>
+            <version>0.1.0</version>
+        </mycompany_helloworld>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>MyCompany_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+</config>
